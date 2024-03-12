@@ -58,9 +58,6 @@ This will update the `renv.lock` file with the new packages.
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `01-adm-initial-data-exploration`.
 │
-├── pyproject.toml     <- Project configuration file with package metadata for pdac_nac
-│                         and configuration for tools like ruff.
-│
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
@@ -71,6 +68,8 @@ This will update the `renv.lock` file with the new packages.
     └── pipeline       <- Folders for different stages of the pipeline
         └── visualize.R
 ```
+
+> The `data` directory won't be tracked by git. 
 
 ---
 
