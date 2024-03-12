@@ -1,0 +1,16 @@
+---
+title: "Hello, World!"
+---
+
+# Hello, World!
+
+This is a simple demo of how quarto can be used to create notebooks.
+
+
+```{r}
+config <- config::get()
+
+root_dir <- here::here()
+data_dir <- here::here(config$data)
+print(data_dir)
+```
